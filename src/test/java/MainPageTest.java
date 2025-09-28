@@ -65,6 +65,7 @@ public class MainPageTest {
         assertEquals(expectedHeader, actualHeader);
     }
 
+
     @AfterEach
     public void tearDown() {
         if (driver != null) {
